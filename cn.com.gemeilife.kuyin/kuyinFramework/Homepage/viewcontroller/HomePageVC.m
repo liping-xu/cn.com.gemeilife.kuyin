@@ -288,8 +288,21 @@
             [contentView addSubview:midLineView];
             
         }
-//        NSArray *contentTitleArray = @[@"今日收入(元)", @"今日扫码(元)", @"今日充值(元)", @"今日办卡(张)", @"今日打水(升)", @"水卡总余额(元)"];
-//        NSArray *contentArray = @[@"0.00", @"0.00", @"0.00", @"0", @"0", @"0.00"];
+        
+        
+        CGFloat HlineY = midY + margin;
+        CGFloat HlineW = 1;
+        CGFloat HlineH = contentViewH * 0.5 - margin * 2;
+        CGFloat HLineX = contentViewW * 0.5;
+        UIView *HLineView = [[UIView alloc] initWithFrame:CGRectMake(HLineX, HlineY, HlineW, HlineH)];
+        HLineView.backgroundColor = [UIColor dx_D9D9D9Color];
+        [contentView addSubview:HLineView];
+        
+        
+        
+        
+        NSArray *todayTitleArray = @[@"今日收入(元)", @"今日扫码(元)", @"今日充值(元)", @"今日办卡(张)", @"今日打水(升)", @"水卡总余额(元)"];
+        NSArray *todayArray = @[@"0.00", @"0.00", @"0.00", @"0", @"0", @"0.00"];
 //        self.contentLabelArray = [[NSMutableArray alloc] init];
 //
 //        for (int i = 0; i < contentTitleArray.count; i++) {
