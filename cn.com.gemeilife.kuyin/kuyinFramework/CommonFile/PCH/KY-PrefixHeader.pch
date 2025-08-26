@@ -1,0 +1,23 @@
+//
+//  KY-PrefixHeader.pch
+//  cn.com.gemeilife.kuyin
+//
+//  Created by lipixu on 2025/7/21.
+//
+
+#ifndef KY_PrefixHeader_pch
+#define KY_PrefixHeader_pch
+
+#import <SDWebImage.h>
+#import "HeaderFiles.h"
+#import "DXExtention.h"
+#import "AFNetRequest.h"
+#import "RequestURLHeader.h"
+#import "POPView.h"
+#import "BBAlertViewTools.h"
+#import "GSTools.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* KY_PrefixHeader_pch */
